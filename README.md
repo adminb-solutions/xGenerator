@@ -59,7 +59,7 @@ Both walkers adds page event data if required from configuration.
 
 Deployment to Sitecore:
 
-1)  Open "src\ExperienceGenerator.Client\App_Config\Include\ExperienceGenerator\zExperienceGenerator.DevSettings.config" and change "experienceGeneratorSource" variable to xGenerator source location
+1) Open "src\ExperienceGenerator.Client\App_Config\Include\ExperienceGenerator\zExperienceGenerator.DevSettings.config" and change "experienceGeneratorSource" variable to xGenerator source location
 2) Open "src\publishsettings.targets" and change publishUrl to the Sitecore host name
 3) Open ExperienceGenerator.sln in Visual Studio
 4) Perform Web publish for all web projects in solution using "local" profile
