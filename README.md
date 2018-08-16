@@ -14,7 +14,6 @@ Generate "realistically looking" traffic for the Sitecore Experience Database (x
  - Campaigns
 
 # Experience Profile Generator
-# Experience Profile Generator
 
 Generate visits for Sitecore contacts (xProfile) with configurable settings:
 
