@@ -44,17 +44,17 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Configy" Version="1.0.0" />
-    <PackageReference Include="Kamsar.WebConsole" Version="2.0.0" />
+    <PackageReference Include="Kamsar.WebConsole" Version="2.0.1" />
     <PackageReference Include="MicroCHAP" Version="1.2.2.2" />
-    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.3" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.3" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.3" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.WebHost" Version="5.2.3" />
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
-    <PackageReference Include="Rainbow" Version="2.0.0" />
-    <PackageReference Include="Rainbow.Core" Version="2.0.0" />
-    <PackageReference Include="Rainbow.Storage.Sc" Version="2.0.0" />
-    <PackageReference Include="Rainbow.Storage.Yaml" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.6" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.6" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.6" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.WebHost" Version="5.2.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Rainbow" Version="2.0.2" />
+    <PackageReference Include="Rainbow.Core" Version="2.0.2" />
+    <PackageReference Include="Rainbow.Storage.Sc" Version="2.0.2" />
+    <PackageReference Include="Rainbow.Storage.Yaml" Version="2.0.2" />
     <PackageReference Include="Sitecore.Analytics.Aggregation.NoReferences" Version="9.0.180604" />
     <PackageReference Include="Sitecore.Analytics.DataAccess.NoReferences" Version="9.0.180604" />
     <PackageReference Include="Sitecore.Analytics.NoReferences" Version="9.0.180604" />
@@ -63,8 +63,8 @@
     <PackageReference Include="Sitecore.ContentSearch.Client.NoReferences" Version="9.0.180604" />
     <PackageReference Include="Sitecore.ContentSearch.NoReferences" Version="9.0.180604" />
     <PackageReference Include="Sitecore.Kernel.NoReferences" Version="9.0.180604" />
-    <PackageReference Include="Unicorn" Version="4.0.2" />
-    <PackageReference Include="Unicorn.Core" Version="4.0.2" />
+    <PackageReference Include="Unicorn" Version="4.0.4" />
+    <PackageReference Include="Unicorn.Core" Version="4.0.4" />
     <PackageReference Include="WebBackgrounder" Version="0.2.0" />
   </ItemGroup>
   <ItemGroup>
@@ -103,7 +103,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
-    <Content Include="App_Config\Include\ExperienceGenerator\zExperienceGenerator.DevSettings.config" />
+    <Content Include="App_Config\Include\ExperienceGenerator\zExperienceGenerator.DevSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Global.asax" />
     <Content Include="sitecore\shell\client\Applications\ExperienceGenerator\InteractionEditor.js" />
     <Content Include="sitecore\shell\Themes\Standard\ExperienceGenerator.zip" />
